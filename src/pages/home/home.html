@@ -1,14 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      <p align="center">Consorcio Mobil</p>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  	<ion-img width="100" height="40" style="opacity: 0.5; align-content: center;" src="../../assets/imgs/logoConsorcio.png"></ion-img>
+  	<form (ngSubmit)="saveData()">
+  <ion-row>
+    <ion-label>En esta app podrás encontrar el Seguro <br/>ideal para tu vehículo, 
+			solo tienes <br/>que ingresar la patente y nosotros<br/> te encontramos 
+			el seguro más conveniente
+	</ion-label>
+    	 
+        
+        <ion-item>
+		    <ion-label color="primary" >Ingrese su patente</ion-label>
+		    <ion-input name = "pat" type="text" ></ion-input>
+		</ion-item>
+		<button  ion-button block (click)="goPagina2()" type="submit"> Envíar</button>
+   		
+  </ion-row>
+</form>
+	
+
+	
+		
 </ion-content>
