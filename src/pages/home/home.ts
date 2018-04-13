@@ -25,14 +25,13 @@ export class HomePage {
  	}
 
  	getDataConsorcio(){
- 	    var a =[];
- 		this.a = this.consorciourlProvider.conexionConsorcio();
- 		console.log(a);
+ 	    this.consorciourlProvider.conexionConsorcio();
+ 		
  	}
 
    	saveData(){
    		
-   		var pat = this.patente;
+   		
    		
    	}
 

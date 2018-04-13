@@ -1,6 +1,6 @@
 {
   "name": "ConsorcioApp",
-  "app_id": "",
+  "app_id": "51c7d8d4",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

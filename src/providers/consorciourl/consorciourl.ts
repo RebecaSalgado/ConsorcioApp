@@ -24,7 +24,7 @@ export class ConsorciourlProvider {
   }
 
 conexionConsorcio(){
-   var request = require("request");
+   var request;
 
 	var options = { 
 	method: 'POST',
